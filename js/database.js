@@ -61,4 +61,14 @@ const data = [
     addCart: "Adicionar ao carrinho",
     tag: ["Camisetas"],
   },
+  {
+    id: 7,
+    img: "../img/tenismaneiraço.jpg",
+    nameItem: "Tênis Maneiraço",
+    description:
+      "Com este tênis maneiraço, você ficará o homem mais estiloso do mundo. Seja para corridas...",
+    value: 500,
+    addCart: "Adicionar ao carrinho",
+    tag: ["Calçados"],
+  }
 ];
