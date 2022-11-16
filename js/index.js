@@ -241,6 +241,7 @@ botaoCalcados.addEventListener("click", function(e){
 botaoCamisetas.addEventListener("click", function(e){
     let itensLista = document.querySelectorAll(".vitrineDiv");
     let tagItem = document.querySelectorAll(".tagItem");
+
     for (let i = 0; i < itensLista.length; i++){
         if (tagItem[i].innerText != "Camisetas"){
             itensLista[i].style = "display:none;";
